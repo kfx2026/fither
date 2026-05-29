@@ -1,0 +1,571 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="google" content="notranslate"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>20道高蛋白减脂餐食 | FitHer</title>
+<meta property="og:title" content="20道高蛋白减脂餐食 为女性设计 | FitHer">
+<meta property="og:description" content="20道基于科学的高蛋白餐食，专为女性营养需求设计。分早餐、午餐、晚餐、零食四大板块。USDA营养数据，减脂产品友好。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://fither.com/zh/pages/recipes.html">
+<meta property="og:site_name" content="FitHer">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="20道高蛋白减脂餐食 为女性设计 | FitHer">
+<meta name="twitter:description" content="20道高蛋白减脂餐食，专为女性营养需求设计。分早中晚+零食四大板块，USDA验证营养数据。">
+<meta property="og:locale" content="zh_CN">
+<meta name="description" content="20道高蛋白、高纤维减脂餐食。按餐食类型分类：早餐、午餐、晚餐、零食饮品。USDA验证营养数据。减脂产品友好。">
+<link rel="stylesheet" href="../../css/style.css">
+<style>
+.recipes-hero{background:linear-gradient(135deg,#ff6b9d 0%,#c44569 50%,#2c3e50 100%);padding:4rem 0 3rem;text-align:center;color:#fff}
+.recipes-hero h1{font-size:2.8rem;margin-bottom:.8rem}
+.recipes-hero .hero-stats{display:flex;justify-content:center;gap:2.5rem;margin-top:1.5rem;flex-wrap:wrap}
+.hero-stat{text-align:center}
+.hero-stat .num{font-size:2rem;font-weight:800;display:block}
+.hero-stat .label{font-size:.85rem;opacity:.85}
+.category-nav{background:#fff;padding:1rem 0;position:sticky;top:60px;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.06);overflow-x:auto}
+.category-nav .container{display:flex;gap:.5rem;flex-wrap:nowrap;justify-content:center}
+.cat-btn{padding:.6rem 1.4rem;border-radius:30px;border:2px solid #eee;background:#fff;color:#666;font-weight:600;font-size:.9rem;cursor:pointer;transition:all .25s;white-space:nowrap;text-decoration:none}
+.cat-btn:hover,.cat-btn.active{background:var(--primary);color:#fff;border-color:var(--primary)}
+.cat-section{padding:3rem 0 1rem}
+.cat-header{text-align:center;margin-bottom:2.5rem}
+.cat-header .cat-icon{font-size:2.8rem;display:block;margin-bottom:.5rem}
+.cat-header h2{font-size:2rem;color:var(--dark)}
+.cat-header .cat-desc{color:var(--light);max-width:600px;margin:.5rem auto 0;font-size:.95rem}
+.recipes-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1.8rem}
+.recipe-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.06);transition:transform .25s,box-shadow .25s;display:flex;flex-direction:column}
+.recipe-card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.1)}
+.recipe-card .card-img{position:relative;height:200px;overflow:hidden}
+.recipe-card .card-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.recipe-card:hover .card-img img{transform:scale(1.05)}
+.card-badges{position:absolute;top:10px;left:10px;display:flex;gap:6px;flex-wrap:wrap}
+.badge{font-size:.7rem;font-weight:700;padding:4px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px}
+.badge-fiber{background:#e8f5e9;color:#2e7d32}
+.badge-protein{background:#e3f2fd;color:#1565c0}
+.badge-quick{background:#fff3e0;color:#e65100}
+.badge-prep{background:#f3e5f5;color:#6a1b9a}
+.recipe-body{padding:1.3rem;flex:1;display:flex;flex-direction:column}
+.recipe-body h3{font-size:1.1rem;margin-bottom:.4rem;line-height:1.3}
+.recipe-body .desc{color:var(--light);font-size:.85rem;margin-bottom:.8rem;line-height:1.5;flex:1}
+.stats-row{display:flex;gap:1rem;margin-bottom:1rem;flex-wrap:wrap}
+.stat-item{text-align:center;min-width:55px}
+.stat-item .val{font-size:1.05rem;font-weight:700;color:var(--primary);display:block;line-height:1.2}
+.stat-item .unit{font-size:.7rem;color:var(--light);text-transform:uppercase;letter-spacing:.5px}
+.btn-recipe{width:100%;padding:.65rem;border:2px solid var(--primary);background:transparent;color:var(--primary);border-radius:8px;font-weight:600;font-size:.85rem;cursor:pointer;transition:all .2s}
+.btn-recipe:hover{background:var(--primary);color:#fff}
+.recipe-detail{display:none;margin-top:1rem;padding:1.2rem;background:var(--bg);border-radius:8px;font-size:.85rem;line-height:1.7}
+.recipe-detail ul{padding-left:1.2rem;margin:.5rem 0}
+.recipe-detail li{margin-bottom:.25rem}
+.recipe-detail .macro-table{width:100%;border-collapse:collapse;margin:.8rem 0;font-size:.8rem}
+.recipe-detail .macro-table td{padding:.4rem .6rem;border-bottom:1px solid #e0e0e0}
+.recipe-detail .macro-table td:last-child{text-align:right;font-weight:600}
+.recipe-detail .ref{font-size:.75rem;color:#999;margin-top:.8rem;font-style:italic}
+.principles-banner{background:linear-gradient(135deg,#e8f5e9,#e3f2fd);padding:2.5rem;border-radius:12px;margin:3rem 0;text-align:center}
+.principles-banner h3{color:var(--dark);margin-bottom:1rem}
+.principles-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem;margin-top:1.5rem;text-align:left}
+.p-item{display:flex;gap:.8rem;align-items:flex-start}
+.p-icon{font-size:1.5rem;flex-shrink:0;width:36px;text-align:center}
+.p-text h4{font-size:.9rem;margin-bottom:.2rem}
+.p-text p{font-size:.8rem;color:var(--light);line-height:1.4}
+.body-positive-note{background:#fff5f7;border-left:4px solid var(--primary);padding:1.2rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0;font-size:.9rem;color:var(--dark);line-height:1.6}
+.disclaimer-box{background:#fafafa;border:1px solid #e0e0e0;padding:1.5rem;border-radius:8px;margin:3rem 0;font-size:.8rem;color:#888;line-height:1.7}
+@media(max-width:768px){
+.recipes-hero h1{font-size:1.8rem}
+.hero-stats{gap:1.2rem}
+.cat-btn{padding:.5rem 1rem;font-size:.8rem}
+.recipes-grid{grid-template-columns:1fr}
+.principles-banner{padding:1.5rem}
+}
+</style></head><body>
+<nav class="navbar"><div class="container"><div class="logo"><a href="../../index.html">FitHer</a></div><ul class="nav-menu"><li><a href="../index.html">首页</a></li><li><a href="tools.html">工具</a></li><li><a href="recipes.html" class="active">食谱</a></li><li><a href="workouts.html">训练</a></li><li><a href="wellness-companion.html">减脂产品</a></li><li><a href="faq.html">常见问题</a></li><li><a href="plans.html">方案</a></li></ul><a href="../../pages/recipes.html" class="lang-switch">🇺🇸 English</a><div class="hamburger"><span></span><span></span><span></span></div></div></nav>
+
+<header class="recipes-hero"><div class="container">
+<h1>20道高蛋白减脂餐食 · 为女性设计</h1>
+<p>基于蛋白质杠杆假说设计——每一餐都在为你的身体充能，而非限制</p>
+<div class="hero-stats">
+<div class="hero-stat"><span class="num">20</span><span class="label">道餐食</span></div>
+<div class="hero-stat"><span class="num">25g+</span><span class="label">平均蛋白质</span></div>
+<div class="hero-stat"><span class="num">4</span><span class="label">大类</span></div>
+<div class="hero-stat"><span class="num">15分钟</span><span class="label">平均准备</span></div>
+</div>
+</div></header>
+
+<nav class="category-nav"><div class="container">
+<a href="#breakfast" class="cat-btn active">🥣 早餐</a>
+<a href="#lunch" class="cat-btn">🥗 午餐</a>
+<a href="#dinner" class="cat-btn">🍽️ 晚餐</a>
+<a href="#snacks" class="cat-btn">🥤 零食饮品</a>
+</div></nav>
+
+<div class="section"><div class="container">
+<div class="body-positive-note">
+<strong>🌸 关于食物与身体的说明：</strong>这些食谱旨在滋养和赋能——而非限制或惩罚。食物是能量、愉悦和文化。这里没有"好食物"和"坏食物"，只有支持<em>你</em>独特身体和目标的不同方式。吃让你感到强壮和满足的食物。
+</div>
+
+<div class="principles-banner">
+<h3>🎯 食谱设计原则</h3>
+<p style="color:var(--light);font-size:.9rem">每道食谱都遵循循证的女性健康营养指南</p>
+<div class="principles-grid">
+<div class="p-item"><div class="p-icon">💪</div><div class="p-text"><h4>蛋白质优先</h4><p>每份25-40g蛋白质，支持肌肉保护和饱腹感（Leidy et al., 2015）</p></div></div>
+<div class="p-item"><div class="p-icon">🌿</div><div class="p-text"><h4>高纤维</h4><p>每餐5-15g膳食纤维，支持肠道健康和稳定能量（Reynolds et al., 2019, The Lancet）</p></div></div>
+<div class="p-item"><div class="p-icon">🫒</div><div class="p-text"><h4>地中海饮食基础</h4><p>基于全球研究最充分的健康饮食模式（Estruch et al., 2018, NEJM）</p></div></div>
+<div class="p-item"><div class="p-icon">⚡</div><div class="p-text"><h4>天然食材</h4><p>全食物原料，无人工甜味剂，最低限度加工</p></div></div>
+</div>
+</div>
+</div></div>
+
+<!-- ===== 早餐 ===== -->
+<div class="section cat-section" id="breakfast"><div class="container">
+<div class="cat-header"><span class="cat-icon">🥣</span><h2>早餐</h2><p class="cat-desc">用25-35g蛋白质开启每一天。研究表明，高蛋白早餐可减少全天的食欲和零食行为（Leidy et al., 2013, AJCN）。</p></div>
+<div class="recipes-grid">
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1484723091739-30a097b8abd7?w=400&h=250&fit=crop" alt="希腊酸奶碗" loading="lazy">
+<div class="card-badges"><span class="badge badge-protein">高蛋白</span><span class="badge badge-quick">5分钟</span></div>
+</div>
+<div class="recipe-body"><h3>希腊酸奶能量碗</h3><p class="desc">终极高蛋白早餐。每杯希腊酸奶含17g蛋白质和肠道友好型益生菌。搭配富含抗氧化剂的莓果和Omega-3火麻仁。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">305</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">28g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">6g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">5分钟</span><span class="unit">准备</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr1');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr1" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>1杯（226g）原味脱脂希腊酸奶 —— 130千卡，22g蛋白质</li><li>半杯（75g）混合莓果（蓝莓、覆盆子）—— 40千卡，2g纤维</li><li>2汤匙（14g）杏仁片 —— 80千卡，3g蛋白质，2g纤维</li><li>1汤匙（10g）火麻仁 —— 55千卡，3g蛋白质，1g纤维</li><li>半茶匙肉桂粉（帮助稳定血糖）</li></ul>
+<strong>做法：</strong>将酸奶盛入碗中，铺上莓果、杏仁片和火麻仁。撒上肉桂粉。冷食。<em>备餐技巧：前一晚将干配料分装到小容器中。</em>
+<table class="macro-table"><tr><td>热量</td><td>305千卡</td></tr><tr><td>蛋白质</td><td>28g</td></tr><tr><td>碳水化合物</td><td>22g</td></tr><tr><td>膳食纤维</td><td>6g</td></tr><tr><td>脂肪</td><td>12g</td></tr></table>
+<p class="ref">参考：USDA FoodData Central（NDB 01286, 09040, 12061, 12638）</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1517673400267-0251440c45dc?w=400&h=250&fit=crop" alt="隔夜燕麦" loading="lazy">
+<div class="card-badges"><span class="badge badge-prep">备餐</span><span class="badge badge-fiber">高纤维</span></div>
+</div>
+<div class="recipe-body"><h3>莓果隔夜蛋白燕麦</h3><p class="desc">备餐之王。碾压燕麦通过β-葡聚糖可溶性纤维提供缓释能量。希腊酸奶将蛋白质翻倍。10分钟备好3天的量。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">340</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">24g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">8g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">5分钟</span><span class="unit">准备</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr2');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr2" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>半杯（40g）碾压燕麦 —— 150千卡，5g蛋白质，4g纤维</li><li>半杯（113g）希腊酸奶 —— 65千卡，11g蛋白质</li><li>半杯（120ml）无糖杏仁奶 —— 15千卡</li><li>1汤匙（10g）奇亚籽 —— 60千卡，2g蛋白质，4g纤维</li><li>半杯（75g）混合莓果 —— 40千卡</li><li>1茶匙枫糖浆（可选）—— 17千卡</li></ul>
+<strong>做法：</strong>在密封罐中混合燕麦、酸奶、杏仁奶和奇亚籽。搅拌均匀。冷藏过夜（8小时以上）。食用前铺上莓果。冷藏可保存3天。
+<table class="macro-table"><tr><td>热量</td><td>340千卡</td></tr><tr><td>蛋白质</td><td>24g</td></tr><tr><td>碳水化合物</td><td>42g</td></tr><tr><td>膳食纤维</td><td>8g</td></tr><tr><td>脂肪</td><td>10g</td></tr></table>
+<p class="ref">参考：USDA（NDB 08120, 01286, 12006, 09040）。β-葡聚糖：Whitehead et al., 2014, J Nutr Metab。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1590301157890-4810ed352733?w=400&h=250&fit=crop" alt="思慕雪碗" loading="lazy">
+<div class="card-badges"><span class="badge badge-protein">高蛋白</span><span class="badge badge-quick">5分钟</span></div>
+</div>
+<div class="recipe-body"><h3>绿色女神蛋白思慕雪碗</h3><p class="desc">风靡Instagram的思慕雪碗，升级版含26g蛋白质。菠菜提供铁和镁，蛋白粉让你饱腹数小时。清爽、绵密、无限定制。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">310</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">26g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">7g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">5分钟</span><span class="unit">准备</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr3');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr3" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>1杯（30g）新鲜菠菜 —— 7千卡，1g纤维</li><li>1勺（30g）香草蛋白粉（乳清或植物蛋白）—— 110千卡，24g蛋白质</li><li>半根冷冻香蕉 —— 50千卡，1.5g纤维</li><li>半杯（120ml）无糖杏仁奶 —— 15千卡</li><li>1汤匙（10g）奇亚籽 —— 60千卡，2g蛋白质，4g纤维</li><li>装饰：1汤匙格兰诺拉麦片、1汤匙椰丝</li></ul>
+<strong>做法：</strong>将菠菜、蛋白粉、冷冻香蕉、杏仁奶和奇亚籽搅打至浓稠绵密。倒入碗中。撒上装饰配料。立即用勺子食用。
+<table class="macro-table"><tr><td>热量</td><td>310千卡</td></tr><tr><td>蛋白质</td><td>26g</td></tr><tr><td>碳水化合物</td><td>30g</td></tr><tr><td>膳食纤维</td><td>7g</td></tr><tr><td>脂肪</td><td>9g</td></tr></table>
+<p class="ref">参考：USDA（NDB 11457, 09040, 12006）。植物蛋白：Berrazaga et al., 2019, Nutrients。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1623689046285-01b29591f7dc?w=400&h=250&fit=crop" alt="乡村奶酪碗" loading="lazy">
+<div class="card-badges"><span class="badge badge-protein">25g蛋白质</span><span class="badge badge-quick">5分钟</span></div>
+</div>
+<div class="recipe-body"><h3>咸香乡村奶酪早餐碗</h3><p class="desc">乡村奶酪（Cottage Cheese）是2025年的回归明星——25g蛋白质/杯，质地绵密。这款咸香版本用地中海风味打破"甜早餐"的惯例。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">280</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">27g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">3g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">5分钟</span><span class="unit">准备</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr4');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr4" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>1杯（226g）低脂乡村奶酪 —— 180千卡，25g蛋白质</li><li>半杯（75g）樱桃番茄，对半切 —— 15千卡，1g纤维</li><li>四分之一个牛油果（38g），切丁 —— 60千卡，2.5g纤维</li><li>1茶匙特级初榨橄榄油 —— 40千卡</li><li>贝果综合调味料（Everything Bagel Seasoning）、现磨黑胡椒</li><li>新鲜莳萝或细香葱</li></ul>
+<strong>做法：</strong>将乡村奶酪铺在碗底。摆上番茄和牛油果。淋上橄榄油。大量撒上调味料。用新鲜香草装饰。
+<table class="macro-table"><tr><td>热量</td><td>280千卡</td></tr><tr><td>蛋白质</td><td>27g</td></tr><tr><td>碳水化合物</td><td>12g</td></tr><tr><td>膳食纤维</td><td>3g</td></tr><tr><td>脂肪</td><td>14g</td></tr></table>
+<p class="ref">参考：USDA（NDB 01014, 11529, 09037）。乡村奶酪蛋白质：USDA FDC 1097550。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1603073163308-9654c9f5ebd8?w=400&h=250&fit=crop" alt="蛋清麦芬" loading="lazy">
+<div class="card-badges"><span class="badge badge-prep">备餐</span><span class="badge badge-protein">高蛋白</span></div>
+</div>
+<div class="recipe-body"><h3>蛋清蔬菜意式烘蛋麦芬</h3><p class="desc">周日批量烤12个，每天早上拿2个。蛋清提供纯蛋白质，彩椒和菠菜补充微量营养素。每个仅65千卡含8g蛋白质。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">130</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">16g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">2g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">25分钟</span><span class="unit">烘烤</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr5');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr5" class="recipe-detail">
+<strong>食材（12个）：</strong>
+<ul><li>2杯（480ml）液体蛋清 —— 250千卡，50g蛋白质</li><li>半个红甜椒（60g），切丁 —— 20千卡，1g纤维</li><li>1杯（30g）新鲜菠菜，切碎 —— 7千卡</li><li>四分之一杯（30g）低脂马苏里拉奶酪碎 —— 80千卡，8g蛋白质</li><li>四分之一茶匙大蒜粉、盐、胡椒</li></ul>
+<strong>做法：</strong>预热烤箱至175°C。在12格麦芬模具上喷油。将蔬菜均匀分到每个格子里。倒入蛋清至三分之二满。撒上奶酪。烤20-25分钟至凝固。<strong>每个:</strong>~65千卡，8g蛋白质。一次吃2个。
+<table class="macro-table"><tr><td>热量（2个）</td><td>130千卡</td></tr><tr><td>蛋白质</td><td>16g</td></tr><tr><td>碳水化合物</td><td>4g</td></tr><tr><td>膳食纤维</td><td>2g</td></tr><tr><td>脂肪</td><td>5g</td></tr></table>
+<p class="ref">参考：USDA（NDB 01124, 11951, 11457, 01026）。蛋清蛋白质质量：Puglisi & Fernandez, 2022, Nutrients。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&h=250&fit=crop" alt="牛油果吐司" loading="lazy">
+<div class="card-badges"><span class="badge badge-fiber">高纤维</span><span class="badge badge-quick">8分钟</span></div>
+</div>
+<div class="recipe-body"><h3>牛油果鸡蛋蛋白吐司</h3><p class="desc">千禧一代的经典，营养全面升级。一片全谷物吐司+2个鸡蛋+牛油果=蛋白质、健康脂肪和复合碳水的完美平衡，不到10分钟搞定。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">350</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">20g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">7g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">8分钟</span><span class="unit">总计</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr6');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr6" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>1片（40g）全谷物种子面包 —— 100千卡，5g蛋白质，4g纤维</li><li>2个大鸡蛋 —— 140千卡，12g蛋白质</li><li>四分之一个牛油果（38g）—— 60千卡，2.5g纤维</li><li>1茶匙青柠汁、红椒碎</li><li>豆苗或芝麻菜装饰</li></ul>
+<strong>做法：</strong>烤面包。水波蛋或溏心蛋（煮6分钟）。牛油果捣碎加青柠汁和盐。涂在吐司上。放上鸡蛋，撒红椒碎和绿叶菜。
+<table class="macro-table"><tr><td>热量</td><td>350千卡</td></tr><tr><td>蛋白质</td><td>20g</td></tr><tr><td>碳水化合物</td><td>28g</td></tr><tr><td>膳食纤维</td><td>7g</td></tr><tr><td>脂肪</td><td>18g</td></tr></table>
+<p class="ref">参考：USDA（NDB 01123, 09037, 18064）。牛油果单不饱和脂肪：Dreher & Davenport, 2013, Crit Rev Food Sci Nutr。</p>
+</div></div></div>
+
+</div></div></div>
+
+<div style="padding:0 20px"><div class="ad-slot"><p class="ad-label">广告</p><div class="ad-placeholder">广告位 — 您的广告在这里</div></div></div>
+
+<!-- ===== 午餐 ===== -->
+<div class="section cat-section" id="lunch"><div class="container">
+<div class="cat-header"><span class="cat-icon">🥗</span><h2>午餐</h2><p class="cat-desc">蛋白质优先的午餐不会让你下午三点犯困。每碗和每卷都旨在提供饱腹感和稳定能量——适合办公或居家。</p></div>
+<div class="recipes-grid">
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=250&fit=crop" alt="藜麦碗" loading="lazy">
+<div class="card-badges"><span class="badge badge-fiber">10g纤维</span><span class="badge badge-protein">植物蛋白</span></div>
+</div>
+<div class="recipe-body"><h3>地中海藜麦能量碗</h3><p class="desc">藜麦是少数含全部9种必需氨基酸的植物食材之一。搭配鹰嘴豆和菲达奶酪，这碗提供完整蛋白质和10g饱腹纤维。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">395</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">22g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">10g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">20分钟</span><span class="unit">准备</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr7');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr7" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>四分之三杯（140g）煮熟的藜麦 —— 166千卡，6g蛋白质，4g纤维</li><li>半杯（75g）樱桃番茄 —— 15千卡，1g纤维</li><li>半杯（60g）黄瓜，切丁 —— 8千卡</li><li>三分之一杯（60g）鹰嘴豆，冲洗 —— 90千卡，5g蛋白质，4g纤维</li><li>2汤匙（15g）菲达奶酪碎 —— 40千卡，2g蛋白质</li><li>1汤匙柠檬油醋汁（橄榄油+柠檬汁）—— 70千卡</li><li>新鲜欧芹、卡拉马塔橄榄（可选）</li></ul>
+<strong>做法：</strong>混合藜麦、蔬菜和鹰嘴豆。加入菲达奶酪和橄榄。淋上调味汁拌匀。室温食用。备餐：冷藏保存3天。
+<table class="macro-table"><tr><td>热量</td><td>395千卡</td></tr><tr><td>蛋白质</td><td>22g</td></tr><tr><td>碳水化合物</td><td>42g</td></tr><tr><td>膳食纤维</td><td>10g</td></tr><tr><td>脂肪</td><td>18g</td></tr></table>
+<p class="ref">参考：USDA（NDB 20039, 11529, 16057, 01019）。藜麦蛋白质品质：Vega-Galvez et al., 2010, J Sci Food Agric。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1505253304499-671c55fb57fe?w=400&h=250&fit=crop" alt="鸡肉沙拉" loading="lazy">
+<div class="card-badges"><span class="badge badge-protein">高蛋白</span><span class="badge badge-prep">备餐</span></div>
+</div>
+<div class="recipe-body"><h3>牛油果鸡肉沙拉生菜杯</h3><p class="desc">用绵密牛油果替代蛋黄酱，更健康的脂肪。盛在黄油生菜杯中而非面包上——依然满足，更加清爽。34g蛋白质让你饱到晚餐。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">320</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">34g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">5g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">10分钟</span><span class="unit">准备</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr8');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr8" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>5盎司（142g）熟鸡胸肉，撕碎 —— 230千卡，32g蛋白质</li><li>半个牛油果（75g），捣碎 —— 120千卡，5g纤维</li><li>2汤匙（30g）原味希腊酸奶 —— 18千卡，3g蛋白质</li><li>1根芹菜茎，切丁；2汤匙红洋葱碎</li><li>1茶匙青柠汁、盐、胡椒</li><li>4-6片黄油生菜叶</li></ul>
+<strong>做法：</strong>混合鸡丝、牛油果泥、酸奶、芹菜、洋葱和调味料。舀入生菜杯中。冷藏后更佳。提前准备：馅料冷藏可保存2天。
+<table class="macro-table"><tr><td>热量</td><td>320千卡</td></tr><tr><td>蛋白质</td><td>34g</td></tr><tr><td>碳水化合物</td><td>12g</td></tr><tr><td>膳食纤维</td><td>5g</td></tr><tr><td>脂肪</td><td>15g</td></tr></table>
+<p class="ref">参考：USDA（NDB 05063, 09037, 11253）。鸡胸肉蛋白质：USDA FDC 1714777。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=250&fit=crop" alt="金枪鱼碗" loading="lazy">
+<div class="card-badges"><span class="badge badge-protein">30g蛋白质</span><span class="badge badge-quick">10分钟</span></div>
+</div>
+<div class="recipe-body"><h3>金枪鱼白豆蛋白碗</h3><p class="desc">橱柜英雄：金枪鱼罐头+白芸豆，10分钟做出30g蛋白质的碗。地中海风味，柠檬、刺山柑和新鲜香草。零烹饪。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">360</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">30g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">8g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">10分钟</span><span class="unit">准备</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr9');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr9" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>1罐（5oz/142g）水浸金枪鱼，沥干 —— 120千卡，26g蛋白质</li><li>半杯（90g）白芸豆罐头，冲洗 —— 110千卡，7g蛋白质，5g纤维</li><li>1杯（30g）芝麻菜 —— 5千卡</li><li>半杯樱桃番茄，对半切 —— 15千卡，1g纤维</li><li>1汤匙橄榄油、1汤匙柠檬汁、1茶匙刺山柑</li><li>新鲜罗勒和现磨黑胡椒</li></ul>
+<strong>做法：</strong>将豆、番茄、芝麻菜与橄榄油和柠檬汁拌匀。将金枪鱼弄碎铺在上面。撒刺山柑和罗勒装饰。立即食用或冷食。
+<table class="macro-table"><tr><td>热量</td><td>360千卡</td></tr><tr><td>蛋白质</td><td>30g</td></tr><tr><td>碳水化合物</td><td>24g</td></tr><tr><td>膳食纤维</td><td>8g</td></tr><tr><td>脂肪</td><td>16g</td></tr></table>
+<p class="ref">参考：USDA（NDB 15126, 16059, 11959）。金枪鱼中的Omega-3：USDA FDC 1751399。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400&h=250&fit=crop" alt="火鸡卷" loading="lazy">
+<div class="card-badges"><span class="badge badge-fiber">8g纤维</span><span class="badge badge-quick">10分钟</span></div>
+</div>
+<div class="recipe-body"><h3>火鸡鹰嘴豆泥甘蓝卷</h3><p class="desc">羽衣甘蓝叶替代面饼——低热量、高营养的卷饼底，且能包裹结实。鹰嘴豆泥提供绵密植物蛋白，火鸡胸肉提供瘦肉蛋白。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">340</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">32g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">8g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">10分钟</span><span class="unit">准备</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr10');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr10" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>2片大羽衣甘蓝叶，去茎 —— 20千卡，2g纤维</li><li>4盎司（113g）切片火鸡胸肉 —— 120千卡，24g蛋白质</li><li>3汤匙（45g）鹰嘴豆泥 —— 80千卡，3g蛋白质，2g纤维</li><li>四分之一杯（30g）胡萝卜丝 —— 12千卡，1g纤维</li><li>四分之一个红甜椒，切条；黄瓜条</li><li>豆芽或豆苗</li></ul>
+<strong>做法：</strong>羽衣甘蓝叶沸水焯30秒，拍干。中间涂上鹰嘴豆泥。铺上火鸡片、蔬菜、豆芽。像卷墨西哥卷一样紧紧卷起。对半切开。
+<table class="macro-table"><tr><td>热量</td><td>340千卡</td></tr><tr><td>蛋白质</td><td>32g</td></tr><tr><td>碳水化合物</td><td>22g</td></tr><tr><td>膳食纤维</td><td>8g</td></tr><tr><td>脂肪</td><td>12g</td></tr></table>
+<p class="ref">参考：USDA（NDB 16158, 11761, 11124）。羽衣甘蓝：USDA FDC 170389。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=250&fit=crop" alt="希腊沙拉" loading="lazy">
+<div class="card-badges"><span class="badge badge-protein">36g蛋白质</span><span class="badge badge-prep">备餐</span></div>
+</div>
+<div class="recipe-body"><h3>烤鸡胸希腊沙拉</h3><p class="desc">这不是无聊的减肥沙拉。烤鸡胸、咸香菲达奶酪、卡拉马塔橄榄和脆爽蔬菜，搭配柠檬牛至油醋汁。36g蛋白质，6g纤维，全是风味。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">380</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">36g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">6g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">15分钟</span><span class="unit">准备</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr11');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr11" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>5盎司（142g）烤鸡胸肉，切片 —— 230千卡，32g蛋白质</li><li>3杯（85g）罗马生菜，切碎 —— 15千卡，2g纤维</li><li>半杯黄瓜、半杯番茄 —— 23千卡，1.5g纤维</li><li>2汤匙（15g）菲达奶酪碎 —— 40千卡，2g蛋白质</li><li>5颗卡拉马塔橄榄 —— 35千卡</li><li>调味汁：1汤匙橄榄油 + 1汤匙红酒醋 + 半茶匙干牛至</li></ul>
+<strong>做法：</strong>生菜、黄瓜、番茄切好。与调味汁拌匀。铺上鸡肉片、菲达奶酪、橄榄。温热或冷食皆可。备餐技巧：调味汁单独存放，食用前再拌。
+<table class="macro-table"><tr><td>热量</td><td>380千卡</td></tr><tr><td>蛋白质</td><td>36g</td></tr><tr><td>碳水化合物</td><td>12g</td></tr><tr><td>膳食纤维</td><td>6g</td></tr><tr><td>脂肪</td><td>20g</td></tr></table>
+<p class="ref">参考：USDA（NDB 05063, 11251, 11206, 01019）。地中海饮食：Estruch et al., 2018, NEJM。</p>
+</div></div></div>
+
+</div></div></div>
+
+<!-- ===== 晚餐 ===== -->
+<div class="section cat-section" id="dinner"><div class="container">
+<div class="cat-header"><span class="cat-icon">🍽️</span><h2>晚餐</h2><p class="cat-desc">烤盘一锅出、一锅炖、快手煎锅。全部30-40g蛋白质，为轻松的平日夜晚和温和消化而设计。</p></div>
+<div class="recipes-grid">
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&h=250&fit=crop" alt="三文鱼" loading="lazy">
+<div class="card-badges"><span class="badge badge-protein">38g蛋白质</span><span class="badge badge-fiber">OMEGA-3</span></div>
+</div>
+<div class="recipe-body"><h3>烤盘三文鱼配芦笋红薯</h3><p class="desc">终极工作日晚餐：一个烤盘，20分钟，零烦恼。每份三文鱼提供2g+ Omega-3 EPA/DHA，支持代谢和大脑健康（Mozaffarian & Wu, 2011）。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">420</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">38g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">7g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">20分钟</span><span class="unit">总计</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr12');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr12" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>5盎司（142g）大西洋三文鱼排 —— 260千卡，28g蛋白质</li><li>1杯（90g）西兰花 —— 30千卡，2.5g纤维</li><li>半杯（65g）芦笋 —— 15千卡，1.5g纤维</li><li>半个红薯（65g），切块 —— 55千卡，2g纤维</li><li>1汤匙橄榄油、2瓣大蒜、半个柠檬</li></ul>
+<strong>做法：</strong>预热烤箱200°C。蔬菜和红薯加一半橄榄油、大蒜、盐、胡椒拌匀。先烤10分钟。三文鱼放入烤盘，刷剩余橄榄油和柠檬汁。再烤10-12分钟。
+<table class="macro-table"><tr><td>热量</td><td>420千卡</td></tr><tr><td>蛋白质</td><td>38g</td></tr><tr><td>碳水化合物</td><td>28g</td></tr><tr><td>膳食纤维</td><td>7g</td></tr><tr><td>脂肪</td><td>18g</td></tr></table>
+<p class="ref">参考：USDA（NDB 15076, 11090, 11011, 11508）。Omega-3：Mozaffarian & Wu, 2011, J Am Coll Cardiol。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1559847844-5315695dadae?w=400&h=250&fit=crop" alt="火鸡肉丸" loading="lazy">
+<div class="card-badges"><span class="badge badge-protein">34g蛋白质</span><span class="badge badge-prep">备餐</span></div>
+</div>
+<div class="recipe-body"><h3>希腊火鸡肉丸碗</h3><p class="desc">瘦火鸡肉丸融入菲达奶酪和牛至，搭配柠檬蒸粗麦粉和青瓜酸奶酱。备餐友好：做双份，冷冻一半以后吃。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">410</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">34g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">5g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">30分钟</span><span class="unit">总计</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr13');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr13" class="recipe-detail">
+<strong>食材（2人份）：</strong>
+<ul><li>8盎司（227g）93%瘦火鸡肉馅 —— 320千卡，44g蛋白质</li><li>2汤匙（15g）菲达奶酪碎 —— 40千卡，2g蛋白质</li><li>1个鸡蛋、2汤匙面包糠、1茶匙干牛至</li><li>半杯（95g）煮熟的全麦蒸粗麦粉 —— 110千卡，4g蛋白质，3g纤维</li><li>青瓜酸奶酱：3汤匙希腊酸奶 + 黄瓜丝 + 莳萝</li><li>樱桃番茄和黄瓜搭配</li></ul>
+<strong>做法：</strong>火鸡肉馅与菲达奶酪、鸡蛋、面包糠、牛至混合。捏成8个肉丸。每面煎3分钟，然后烤箱190°C烤10分钟。配蒸粗麦粉和青瓜酸奶酱上桌。<strong>每人份：</strong>
+<table class="macro-table"><tr><td>热量（每人份）</td><td>410千卡</td></tr><tr><td>蛋白质</td><td>34g</td></tr><tr><td>碳水化合物</td><td>32g</td></tr><tr><td>膳食纤维</td><td>5g</td></tr><tr><td>脂肪</td><td>16g</td></tr></table>
+<p class="ref">参考：USDA（NDB 05306, 20001, 01019, 20124）。火鸡蛋白质：USDA FDC 1714776。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&h=250&fit=crop" alt="虾仁" loading="lazy">
+<div class="card-badges"><span class="badge badge-protein">高蛋白</span><span class="badge badge-quick">15分钟</span></div>
+</div>
+<div class="recipe-body"><h3>柠檬香草虾仁西葫芦煎锅</h3><p class="desc">虾是蛋白质热量比之王：84千卡含20g蛋白质。这道15分钟的快手煎锅清爽、抗炎，适合想要快速又充实晚餐的夜晚。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">310</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">32g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">5g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">15分钟</span><span class="unit">总计</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr14');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr14" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>6盎司（170g）大虾，去壳 —— 140千卡，26g蛋白质</li><li>2根中等西葫芦（300g），切丝或切片 —— 50千卡，3g纤维</li><li>2瓣大蒜，切碎；半个柠檬，榨汁</li><li>1汤匙橄榄油 —— 119千卡</li><li>四分之一茶匙红椒碎、新鲜欧芹</li><li>1汤匙帕玛森奶酪碎（可选）—— 22千卡，2g蛋白质</li></ul>
+<strong>做法：</strong>大煎锅中高火加热橄榄油。翻炒西葫芦3-4分钟，盛出。加入大蒜和虾，每面煎2分钟。西葫芦回锅，加入柠檬汁和红椒碎。翻炒1分钟。撒欧芹和帕玛森装饰。
+<table class="macro-table"><tr><td>热量</td><td>310千卡</td></tr><tr><td>蛋白质</td><td>32g</td></tr><tr><td>碳水化合物</td><td>10g</td></tr><tr><td>膳食纤维</td><td>5g</td></tr><tr><td>脂肪</td><td>16g</td></tr></table>
+<p class="ref">参考：USDA（NDB 15151, 11477, 04053）。虾的蛋白质含量：USDA FDC 1751792。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=400&h=250&fit=crop" alt="法吉塔碗" loading="lazy">
+<div class="card-badges"><span class="badge badge-fiber">7g纤维</span><span class="badge badge-prep">备餐</span></div>
+</div>
+<div class="recipe-body"><h3>一锅鸡肉法吉塔碗</h3><p class="desc">法吉塔的全部风味，不需要厚重面饼。调味鸡胸肉、彩椒和黑豆，搭配香菜青柠糙米饭。辣度可自由调整。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">420</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">36g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">7g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">25分钟</span><span class="unit">总计</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr15');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr15" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>5盎司（142g）鸡胸肉，切片 —— 230千卡，32g蛋白质</li><li>半个红甜椒+半个绿甜椒，切条 —— 30千卡，2g纤维</li><li>半个洋葱，切丝；2瓣大蒜</li><li>三分之一杯（60g）黑豆，冲洗 —— 70千卡，4g蛋白质，4g纤维</li><li>半杯（100g）煮熟糙米饭 —— 110千卡，2.5g蛋白质，1.5g纤维</li><li>法吉塔香料：1茶匙孜然、半茶匙辣椒粉、半茶匙红椒粉</li><li>青柠角、新鲜香菜</li></ul>
+<strong>做法：</strong>鸡肉用香料腌制。热锅每面煎3分钟，盛出。翻炒彩椒和洋葱5分钟。鸡肉回锅，加入黑豆，加热。配米饭、青柠和香菜。
+<table class="macro-table"><tr><td>热量</td><td>420千卡</td></tr><tr><td>蛋白质</td><td>36g</td></tr><tr><td>碳水化合物</td><td>40g</td></tr><tr><td>膳食纤维</td><td>7g</td></tr><tr><td>脂肪</td><td>8g</td></tr></table>
+<p class="ref">参考：USDA（NDB 05063, 11951, 16028, 20037）。黑豆纤维：USDA FDC 173735。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=250&fit=crop" alt="火鸡辣椒" loading="lazy">
+<div class="card-badges"><span class="badge badge-fiber">10g纤维</span><span class="badge badge-protein">高蛋白</span></div>
+</div>
+<div class="recipe-body"><h3>暖心火鸡扁豆辣椒汤</h3><p class="desc">一锅温暖，暗藏营养实力。瘦火鸡肉+红扁豆每碗提供30g蛋白质和10g纤维。冷冻保存极佳，适合忙碌周。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">370</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">30g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">10g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">35分钟</span><span class="unit">总计</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr16');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr16" class="recipe-detail">
+<strong>食材（3人份）：</strong>
+<ul><li>8盎司（227g）93%瘦火鸡肉馅 —— 320千卡，44g蛋白质</li><li>半杯（100g）干红扁豆 —— 180千卡，13g蛋白质，8g纤维</li><li>1罐（14.5oz）番茄丁 —— 70千卡，2g纤维</li><li>1个洋葱、2瓣大蒜、1个甜椒，切丁</li><li>2杯低钠鸡汤</li><li>1汤匙辣椒粉、1茶匙孜然、半茶匙烟熏红椒粉</li></ul>
+<strong>做法：</strong>大锅炒火鸡肉、洋葱和大蒜至金黄。加入香料炒1分钟。加入番茄、鸡汤、扁豆。小火炖25分钟。<strong>每人份：</strong>
+<table class="macro-table"><tr><td>热量（每人份）</td><td>370千卡</td></tr><tr><td>蛋白质</td><td>30g</td></tr><tr><td>碳水化合物</td><td>34g</td></tr><tr><td>膳食纤维</td><td>10g</td></tr><tr><td>脂肪</td><td>10g</td></tr></table>
+<p class="ref">参考：USDA（NDB 05306, 16070, 11531）。扁豆蛋白：Jarpa-Parra, 2018, Food Res Int。</p>
+</div></div></div>
+
+</div></div></div>
+
+<div style="padding:0 20px"><div class="ad-slot"><p class="ad-label">广告</p><div class="ad-placeholder">广告位 — 您的广告在这里</div></div></div>
+
+<!-- ===== 零食饮品 ===== -->
+<div class="section cat-section" id="snacks"><div class="container">
+<div class="cat-header"><span class="cat-icon">🥤</span><h2>零食 &amp; 饮品</h2><p class="cat-desc">高蛋白零食和思慕雪，适合两餐之间、运动后恢复，或想吃点轻松但营养的东西时。</p></div>
+<div class="recipes-grid">
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=400&h=250&fit=crop" alt="蛋白冰淇淋" loading="lazy">
+<div class="card-badges"><span class="badge badge-protein">22g蛋白质</span><span class="badge badge-quick">5分钟</span></div>
+</div>
+<div class="recipe-body"><h3>乡村奶酪蛋白"冰淇淋"</h3><p class="desc">TikTok爆款，有营养科学背书。搅打乡村奶酪创造冰淇淋般绵密口感，含22g酪蛋白——慢消化蛋白，完美解决晚间食欲。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">190</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">22g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">2g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">5分钟</span><span class="unit">准备</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr17');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr17" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>1杯（226g）低脂乡村奶酪 —— 180千卡，25g蛋白质</li><li>1汤匙（5g）无糖可可粉 —— 10千卡，1g纤维</li><li>1汤匙枫糖浆或蜂蜜 —— 52千卡</li><li>半茶匙香草精</li><li>可选：1汤匙黑巧克力豆</li></ul>
+<strong>做法：</strong>将乡村奶酪、可可粉、甜味剂和香草精搅打至完全顺滑——约60秒。冷冻30分钟可做软冰淇淋质地，或2小时可做可挖球冰淇淋。撒上巧克力豆。
+<table class="macro-table"><tr><td>热量</td><td>190千卡</td></tr><tr><td>蛋白质</td><td>22g</td></tr><tr><td>碳水化合物</td><td>14g</td></tr><tr><td>膳食纤维</td><td>2g</td></tr><tr><td>脂肪</td><td>4g</td></tr></table>
+<p class="ref">参考：USDA（NDB 01014）。酪蛋白消化：Boirie et al., 1997, PNAS。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1577805947697-89e18249d767?w=400&h=250&fit=crop" alt="毛豆鹰嘴豆泥" loading="lazy">
+<div class="card-badges"><span class="badge badge-protein">植物蛋白</span><span class="badge badge-fiber">高纤维</span></div>
+</div>
+<div class="recipe-body"><h3>毛豆鹰嘴豆泥配蔬菜条</h3><p class="desc">经典鹰嘴豆泥的植物蛋白升级版。毛豆每杯含18g蛋白质——是鹰嘴豆的两倍。搭配脆爽蔬菜条，是令人满足的午后零食。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">220</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">15g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">7g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">10分钟</span><span class="unit">准备</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr18');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr18" class="recipe-detail">
+<strong>食材（2人份）：</strong>
+<ul><li>1杯（155g）毛豆仁，煮熟 —— 190千卡，18g蛋白质，8g纤维</li><li>2汤匙（30g）芝麻酱 —— 180千卡，5g蛋白质，2g纤维</li><li>1瓣大蒜、1个柠檬榨汁、2汤匙水</li><li>1汤匙橄榄油、一小撮盐</li><li>蔬菜条：1根胡萝卜、1根芹菜、半个甜椒，切条 —— 70千卡，4g纤维</li></ul>
+<strong>做法：</strong>搅拌机中加入毛豆、芝麻酱、大蒜、柠檬汁、橄榄油和水，搅打至顺滑。调味。搭配蔬菜条食用。<strong>每人份（半份）：</strong>
+<table class="macro-table"><tr><td>热量（每人份）</td><td>220千卡</td></tr><tr><td>蛋白质</td><td>15g</td></tr><tr><td>碳水化合物</td><td>18g</td></tr><tr><td>膳食纤维</td><td>7g</td></tr><tr><td>脂肪</td><td>12g</td></tr></table>
+<p class="ref">参考：USDA（NDB 11212, 12166）。大豆蛋白：Michelfelder, 2009, Am Fam Physician。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400&h=250&fit=crop" alt="莓果思慕雪" loading="lazy">
+<div class="card-badges"><span class="badge badge-protein">28g蛋白质</span><span class="badge badge-quick">3分钟</span></div>
+</div>
+<div class="recipe-body"><h3>三重莓果蛋白恢复思慕雪</h3><p class="desc">运动后恢复，一杯搞定。混合莓果提供减少运动炎症的多酚。希腊酸奶+蛋白粉=28g肌肉修复蛋白质。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">290</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">28g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">6g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">3分钟</span><span class="unit">准备</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr19');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr19" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>半杯（113g）希腊酸奶 —— 65千卡，11g蛋白质</li><li>半勺（15g）香草蛋白粉 —— 55千卡，12g蛋白质</li><li>1杯（140g）冷冻混合莓果 —— 70千卡，4g纤维</li><li>半杯（120ml）无糖杏仁奶 —— 15千卡</li><li>1汤匙（10g）亚麻籽粉 —— 37千卡，1.5g蛋白质，2g纤维</li></ul>
+<strong>做法：</strong>所有食材搅打至顺滑。太稠可多加杏仁奶。立即饮用口感最佳。
+<table class="macro-table"><tr><td>热量</td><td>290千卡</td></tr><tr><td>蛋白质</td><td>28g</td></tr><tr><td>碳水化合物</td><td>34g</td></tr><tr><td>膳食纤维</td><td>6g</td></tr><tr><td>脂肪</td><td>6g</td></tr></table>
+<p class="ref">参考：USDA（NDB 01286, 09040, 12220）。莓果多酚：Bowtell & Kelly, 2019, Nutrients。</p>
+</div></div></div>
+
+<div class="recipe-card">
+<div class="card-img">
+<img src="https://images.unsplash.com/photo-1610970881699-44a5587cabec?w=400&h=250&fit=crop" alt="绿色思慕雪" loading="lazy">
+<div class="card-badges"><span class="badge badge-fiber">高纤维</span><span class="badge badge-quick">3分钟</span></div>
+</div>
+<div class="recipe-body"><h3>绿色能量排毒思慕雪</h3><p class="desc">不是"排毒清肠"——只是营养密集、肠道友好的思慕雪。菠菜、黄瓜、生姜和希腊酸奶支持消化健康，同时提供22g蛋白质。</p>
+<div class="stats-row">
+<div class="stat-item"><span class="val">250</span><span class="unit">千卡</span></div>
+<div class="stat-item"><span class="val">22g</span><span class="unit">蛋白质</span></div>
+<div class="stat-item"><span class="val">6g</span><span class="unit">纤维</span></div>
+<div class="stat-item"><span class="val">3分钟</span><span class="unit">准备</span></div>
+</div>
+<button class="btn-recipe" onclick="var d=document.getElementById('zhr20');d.style.display=d.style.display==='none'?'block':'none';this.textContent=d.style.display==='block'?'▲ 收起':'▼ 完整食谱'">▼ 完整食谱</button>
+<div id="zhr20" class="recipe-detail">
+<strong>食材：</strong>
+<ul><li>2杯（60g）新鲜菠菜 —— 14千卡，1.5g纤维</li><li>半杯（113g）希腊酸奶 —— 65千卡，11g蛋白质</li><li>半杯（60g）黄瓜，切块 —— 8千卡</li><li>半个青苹果（75g）—— 45千卡，2g纤维</li><li>半寸生姜，去皮</li><li>1汤匙（10g）奇亚籽 —— 60千卡，2g蛋白质，4g纤维</li><li>半杯水+冰块</li></ul>
+<strong>做法：</strong>将菠菜、酸奶、黄瓜、苹果、姜、奇亚籽和水搅打至顺滑。加入冰块再次搅打。倒入杯中即可。
+<table class="macro-table"><tr><td>热量</td><td>250千卡</td></tr><tr><td>蛋白质</td><td>22g</td></tr><tr><td>碳水化合物</td><td>28g</td></tr><tr><td>膳食纤维</td><td>6g</td></tr><tr><td>脂肪</td><td>6g</td></tr></table>
+<p class="ref">参考：USDA（NDB 11457, 01286, 11206, 09003）。生姜：Mashhadi et al., 2013, Int J Prev Med。</p>
+</div></div></div>
+
+</div></div></div>
+
+<div class="section"><div class="container">
+<div class="disclaimer-box">
+<strong>⚕️ 医疗免责声明</strong><br>
+本页面的食谱和营养信息仅供信息参考和教育用途。热量和宏量营养素数值为基于USDA FoodData Central和已发表文献的估算值。个人营养需求因年龄、活动水平、代谢健康和药物使用而异。这些食谱不旨在诊断、治疗、治愈或预防任何疾病。如正在使用减脂药物、孕期、哺乳期或有任何疾病，请在做出重大饮食改变前咨询医疗专业人士。
+</div>
+</div></div>
+
+<footer class="footer"><div class="container"><div class="footer-links"><a href="privacy.html">🔒 隐私政策</a><a href="https://food.eastculture.top" target="_blank">🍜 美食站</a><a href="https://travel.eastculture.top" target="_blank">🏯 旅游站</a><a href="mailto:178577324@qq.com">📧 联系</a></div><div class="footer-bottom"><p>&copy; 2026 FitHer. All rights reserved.</p></div></div></footer>
+<script src="../../js/main.js"></script></body></html>

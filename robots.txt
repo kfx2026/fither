@@ -1,0 +1,14 @@
+User-agent: Googlebot
+Allow: /
+Disallow: /js/
+Sitemap: https://fither.com/sitemap.xml
+
+User-agent: Bingbot
+Allow: /
+Disallow: /js/
+Sitemap: https://fither.com/sitemap.xml
+
+User-agent: *
+Allow: /
+
+Crawl-delay: 5

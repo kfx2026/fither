@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="sitemap-style.css"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- English -->
+  <url><loc>https://fither.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://fither.com/pages/tools.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://fither.com/pages/recipes.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://fither.com/pages/workouts.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://fither.com/pages/guides.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://fither.com/pages/plans.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://fither.com/pages/wellness-companion.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://fither.com/pages/faq.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://fither.com/pages/about.html</loc><priority>0.5</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://fither.com/pages/contact.html</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://fither.com/pages/privacy.html</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://fither.com/pages/terms.html</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  
+  <!-- Chinese -->
+  <url><loc>https://fither.com/zh/</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://fither.com/zh/pages/tools.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://fither.com/zh/pages/recipes.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://fither.com/zh/pages/workouts.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://fither.com/zh/pages/guides.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://fither.com/zh/pages/plans.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://fither.com/zh/pages/wellness-companion.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://fither.com/zh/pages/faq.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://fither.com/zh/pages/about.html</loc><priority>0.5</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://fither.com/zh/pages/contact.html</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://fither.com/zh/pages/privacy.html</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://fither.com/zh/pages/terms.html</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+</urlset>
