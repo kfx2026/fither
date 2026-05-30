@@ -1,12 +1,12 @@
 User-agent: Googlebot
 Allow: /
 Disallow: /js/
-Sitemap: https://fither.com/sitemap.xml
+Sitemap: https://www.healthlab.beauty/sitemap.xml
 
 User-agent: Bingbot
 Allow: /
 Disallow: /js/
-Sitemap: https://fither.com/sitemap.xml
+Sitemap: https://www.healthlab.beauty/sitemap.xml
 
 User-agent: *
 Allow: /
